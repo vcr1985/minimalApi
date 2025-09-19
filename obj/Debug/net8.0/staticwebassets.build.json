@@ -1,11 +1,39 @@
 {
   "Version": 1,
-  "Hash": "vLQ5qVjWVbsS+sjQPqY6zIkDbOhV4hR4adDYNUK2jhk=",
+  "Hash": "sDaNIlnyHPYCX9KPVMdgUU/4EpsHwmZ9QnIMQ5ON6uo=",
   "Source": "minimal-api",
   "BasePath": "_content/minimal-api",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
-  "DiscoveryPatterns": [],
-  "Assets": []
+  "DiscoveryPatterns": [
+    {
+      "Name": "minimal-api\\wwwroot",
+      "Source": "minimal-api",
+      "ContentRoot": "G:\\Project-2025\\minimal-api\\wwwroot\\",
+      "BasePath": "_content/minimal-api",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "G:\\Project-2025\\minimal-api\\wwwroot\\images\\carro_vermelho.png",
+      "SourceId": "minimal-api",
+      "SourceType": "Discovered",
+      "ContentRoot": "G:\\Project-2025\\minimal-api\\wwwroot\\",
+      "BasePath": "_content/minimal-api",
+      "RelativePath": "images/carro_vermelho.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\carro_vermelho.png"
+    }
+  ]
 }

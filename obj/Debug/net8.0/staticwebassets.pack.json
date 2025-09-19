@@ -1,0 +1,25 @@
+{
+  "Files": [
+    {
+      "Id": "G:\\Project-2025\\minimal-api\\wwwroot\\images\\carro_vermelho.png",
+      "PackagePath": "staticwebassets\\images\\carro_vermelho.png"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.minimal-api.props",
+      "PackagePath": "build\\minimal-api.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.minimal-api.props",
+      "PackagePath": "buildMultiTargeting\\minimal-api.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.minimal-api.props",
+      "PackagePath": "buildTransitive\\minimal-api.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.minimal-api.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

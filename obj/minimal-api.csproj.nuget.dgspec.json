@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Project-2025\\minimal-api\\minimal-api.csproj": {}
+    "G:\\Project-2025\\minimal-api\\minimal-api.csproj": {}
   },
   "projects": {
-    "D:\\Project-2025\\minimal-api\\minimal-api.csproj": {
+    "G:\\Project-2025\\minimal-api\\minimal-api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Project-2025\\minimal-api\\minimal-api.csproj",
+        "projectUniqueName": "G:\\Project-2025\\minimal-api\\minimal-api.csproj",
         "projectName": "minimal-api",
-        "projectPath": "D:\\Project-2025\\minimal-api\\minimal-api.csproj",
+        "projectPath": "G:\\Project-2025\\minimal-api\\minimal-api.csproj",
         "packagesPath": "C:\\Users\\vcost\\.nuget\\packages\\",
-        "outputPath": "D:\\Project-2025\\minimal-api\\obj\\",
+        "outputPath": "G:\\Project-2025\\minimal-api\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\vcost\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -43,19 +43,43 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "BCrypt.Net-Next": {
+              "target": "Package",
+              "version": "[4.0.3, )"
+            },
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.1.66, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[9.0.8, )"
+              "version": "[8.0.8, )"
             },
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[9.0.8, )"
+              "version": "[8.0.8, )"
+            },
+            "MySql.Data": {
+              "target": "Package",
+              "version": "[9.4.0, )"
             },
             "Pomelo.EntityFrameworkCore.MySql": {
               "target": "Package",
-              "version": "[9.0.0, )"
+              "version": "[8.0.2, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[9.0.4, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[8.14.0, )"
             }
           },
           "imports": [
@@ -77,7 +101,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.206/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.414/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
